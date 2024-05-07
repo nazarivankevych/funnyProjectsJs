@@ -5,3 +5,4 @@ Training my HTML, CSS and JS skills on the lists of projects.
 
 * Heart emoji levitation
 * Auto text animation
+* Mini Calendar
