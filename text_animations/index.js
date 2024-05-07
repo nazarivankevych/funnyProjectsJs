@@ -31,5 +31,4 @@ function updateText() {
     }
     setTimeout(updateText, 400);
   }
-
-
+  
