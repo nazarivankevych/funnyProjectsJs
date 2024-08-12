@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    font-family: 'Open Sans', sans-serif;
+    background: #f7f7f7;
+    background-image: linear-gradient(to bottom, #f7f7f7, #e5e5e5);
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    background-image: linear-gradient(to bottom, blue, yellow);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .wrapper h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffd;
+  }
+  
+  .wrapper p {
+    font-size: 18px;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+  }
+  
+  /* added CSS animation on hover */
+  .wrapper h4:hover {
+    color: #007bff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .wrapper p:hover {
+    color: white;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  /* styles for plus button */
+  .question-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .plus-icon:hover {
+    background-color: #0056b3;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .plus-icon i {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .minus-icon:hover {
+    background-color: #0056b3;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .minus-icon i {
+    font-size: 24px;
+    line-height: 24px;
+  }
